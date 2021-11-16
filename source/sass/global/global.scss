@@ -1,0 +1,91 @@
+@include font("Montserrat", "Montserrat-Bold", 700);
+@include font("Roboto", "Roboto-Light", 300);
+@include font("Roboto", "Roboto-Regular", 400);
+@include font("Roboto", "Roboto-Bold", 700);
+
+.html {
+  //width: 375px;
+  //height: 100%;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+
+  scroll-behavior: smooth;
+
+  color: $text-color;
+
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  width: 375px;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column;
+
+  position: relative;
+
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 0 auto;
+
+  position: relative;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  padding: 0;
+  margin: -1px;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}

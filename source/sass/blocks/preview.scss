@@ -1,0 +1,94 @@
+.preview {
+	min-height: 466px;
+  text-align: center;
+
+	background: url('../img/preview-background.png') no-repeat 0 67.5% / 375px 270px;
+
+	@include retina {
+		background: url('../img/preview-background@2x.png') no-repeat 0 67.5% / 375px 270px;
+	}
+
+	padding: 12px 0 32px;
+}
+
+.preview__title {
+	width: 80%;
+
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+
+  margin: 0 auto 18px;
+}
+
+.preview__discount {
+	width: 153px;
+	min-height: 33px;
+
+	font-family: "Montserrat", "Arial", sans-serif;
+	line-height: 16px;
+	font-weight: 700;	
+	text-transform: uppercase;
+
+	display: block;
+
+	color: #ffffff;
+	background: #50B848;
+
+	border-radius: 4px;
+
+	padding: 9px 0 8px;
+	margin: 0 auto 16px;
+}
+
+.preview__description {
+	width: 247px;
+
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 300;
+
+	margin: 0 auto 266px;
+}
+
+.preview__pharmacy-container {
+	width: 100%;
+	min-height: 60px;
+
+	display: flex;
+	align-items: center;
+
+	background: #008E62;
+}
+
+.preview__pharmacy-container-wrapper {
+	width: 78.6%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 0 auto;
+}
+
+.preview__social-pharmacy-picture {
+	padding: 3px 0 0;
+}
+
+.preview__social-pharmacy {
+	width: 108.8px;
+	height: 32px;
+}
+
+.preview__south-pharmacy-picture {
+	padding: 6px 0 0;
+}
+
+.preview__south-pharmacy {
+	width: 149.33px;
+	height: 17.33px;
+
+	object-fit: contain;
+}

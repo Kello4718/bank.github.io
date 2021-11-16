@@ -1,0 +1,66 @@
+.how-to-get-qr {
+  padding: 40px 20px 36.5px;
+}
+
+.how-to-get-qr__title {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+
+  margin: 0 0 14px;
+}
+
+.how-to-get-qr__description {
+  margin: 0 0 20px;
+}
+
+.how-to-get-qr__list {
+  list-style: none;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 18px 0;
+
+  counter-reset: item-counter;
+
+  padding: 0;
+  margin: 0 0 63px;
+}
+
+.how-to-get-qr__item {
+  width: 96%;
+
+  position: relative;
+
+  padding: 0 0 0 52px;
+
+  &::before {
+    counter-increment: item-counter;
+    content: counter(item-counter);
+
+    width: 36px;
+    height: 36px;
+
+    text-align: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: 1px solid #50B848;
+    border-radius: 50%;
+
+    padding: 8px 0 0;
+  }
+}
+
+.how-to-get-qr__qr {
+  width: 252px;
+  height: 252px;
+
+  display: block;
+
+  margin: 0 auto;
+}

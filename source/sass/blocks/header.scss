@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #50B848;
+
+  padding: 6.5px 19px 12px;
+}
+
+.header__bank-logo {
+  padding: 5.5px 0 0;
+}
+
+.header__bank-logo-svg {
+  width: 126px;
+  height: 26px;
+}
+
+.header__phone-link {
+  font-weight: 700px;
+
+  padding: 0 1px 0 0;
+}
